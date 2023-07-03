@@ -1,0 +1,24 @@
+﻿{
+    "documents": [
+      {
+        "messages": [
+          {
+            "body": {
+              "text": "<body>"
+            },
+            "from": "<from>",
+            "sent_at": "<timestamp>",
+            "subject": {
+                "text": "<subject>"
+              },
+            "to": [
+              "dhruv.patel@uipath.com"
+            ]
+          }
+        ],
+        "timestamp": "<timestamp>",
+        "user_properties": {
+        }
+      }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "CommsMining_ITSM_Working_Example",
+  "projectId": "d1d9ca1e-64c7-4cf3-8047-61b2fbe35373",
+  "description": "Communications Mining, Studio, Unattended Robots, Integration Service. \r\n",
+  "main": "ITSM_Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentProcessing.Contracts": "[1.22.0-preview]",
+    "UiPath.Excel.Activities": "[2.21.0-preview]",
+    "UiPath.IntelligentOCR.Activities": "[6.10.1-preview]",
+    "UiPath.Mail.Activities": "[1.20.2]",
+    "UiPath.Persistence.Activities": "[1.4.6]",
+    "UiPath.System.Activities": "[23.6.0-preview]",
+    "UiPath.WebAPI.Activities": "[1.16.2]",
+    "UiPathTeam.AttendedRobotStatus.Activities": "[1.0.30]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": true,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "ITSM_Main.xaml",
+      "uniqueId": "29e42f95-478f-4401-9039-d3f9baa98306",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
